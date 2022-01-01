@@ -39,7 +39,7 @@ const ApplicationContextProvider: React.FC = ({children}) => {
   
   useEffect(() => { 
 
-    const socket = io('http://192.168.68.120:3333/'); 
+    const socket = io('http://192.168.15.55:3333/'); 
 
 
     socket.on('new_spotted', (data) => {
