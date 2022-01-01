@@ -3,6 +3,8 @@ import { Alert, View } from 'react-native';
 
 import { RouteProp, useNavigation, useRoute} from '@react-navigation/native'; 
 
+import Constants from 'expo-constants'
+
 import { 
   Container,
   Header,
@@ -89,7 +91,7 @@ const CreateSpotted: React.FC = () => {
   }
 
   return (
-    <Container>
+    <Container style={{marginTop: Constants.statusBarHeight}}>
       <Header>
         <ArrowBackButton
           onPress={handleGoBack}

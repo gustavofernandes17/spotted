@@ -6,6 +6,8 @@ import { Container, Header, CreateSpottedButton, HeaderImage, TitleBrand, Search
 
 import { Feather } from '@expo/vector-icons'; 
 
+import Constants from 'expo-constants'
+
 import Card from '../../components/Card';
 import { useNavigation } from '@react-navigation/native';
 import { useAppContext, Spotted } from '../../contexts/app.context';
@@ -76,7 +78,7 @@ const Main: React.FC = () => {
   }
 
   return (
-    <Container>
+    <Container style={{marginTop: Constants.statusBarHeight}}>
       <Header>
         <HeaderImage source={require('../../../assets/icon.png')} />
         <TitleBrand>

@@ -4,7 +4,6 @@ export const Container = styled.View`
   flex: 1;
   align-items: center;
   background-color: #F8F9FA;
-  
 `;
 
 export const BrandContainer = styled.View`
