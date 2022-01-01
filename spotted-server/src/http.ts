@@ -13,7 +13,7 @@ const app = express();
 
 const httpServer = createServer(app);
 
-const io = new Server(httpServer, {cors: {origins: '*:*'}}); 
+const io = new Server(httpServer); 
 
 app.use(cors());
 app.use(express.json());

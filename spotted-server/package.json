@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node src/main.js",
+    "start": "node dist/main.js",
     "dev": "ts-node-dev --transpile-only --respawn --no-notify ./src/main.ts",
     "typeorm": "ts-node ./node_modules/typeorm/cli.js", 
     "compile": "yarn tsc ./src/main.ts"
