@@ -6,7 +6,7 @@
   "scripts": {
     "start": "ts-node src/main.ts",
     "dev": "ts-node-dev --transpile-only --respawn --no-notify ./src/main.ts",
-    "typeorm": "ts-node ./node_modules/typeorm/cli.js", 
+    "typeorm": "ts-node ./node_modules/typeorm/cli.js",
     "compile": "yarn tsc ./src/main.ts"
   },
   "dependencies": {
@@ -20,6 +20,7 @@
     "reflect-metadata": "^0.1.13",
     "socket.io": "^4.4.0",
     "sqlite3": "^5.0.2",
+    "ts-node": "^10.4.0",
     "typeorm": "^0.2.41",
     "unsplash-js": "^7.0.15",
     "uuid": "^8.3.2"
